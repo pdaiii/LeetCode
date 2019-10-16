@@ -1,7 +1,7 @@
 var longestPalindrome = function(s) {
     let palindromes = [];
     for(let i = 0; i < s.length; i++) {
-        for(let j = i+1; j < s.length; j++) {
+        for(let j = i+1; j <= s.length; j++) {
             let substring = s.slice(i, j);
             if(isPalindrome(substring)) {
                 palindromes.push(substring);
