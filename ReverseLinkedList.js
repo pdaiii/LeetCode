@@ -1,3 +1,5 @@
+// 1->2->3->4->5->null
+// 5->4->3->2->1->null
 var reverseList = function(head) {
     let prev = null
     while(head) { // 2, 3, 4
